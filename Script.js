@@ -8,5 +8,5 @@ var CarOffered = CarArray[CarWanted]
 console.log (CarOffered)
 if (CarOffered = "BACMono"){
     var BACMono = ("you have chosen the BAC Mono this will cost you $10 per day how many days would you like to rent for?")
-    alert ("you have chosen to rent the BAC Mono for " +BACMono+ " days we thank you for your partonage and hope you enjoy your new BAC Mono")
+    alert ("you have chosen to rent the BAC Mono for " +BACMono+ " days we thank you for your partonage and hope you enjoy your new BAC Mono this will cost you $" +(BACMono*10)+ "")
 }
