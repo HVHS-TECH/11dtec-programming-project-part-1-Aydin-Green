@@ -1,3 +1,4 @@
+Function
 console.log ("this means the JS is working")
 var UserName = prompt ("What's your name?")
 console.log (UserName)
