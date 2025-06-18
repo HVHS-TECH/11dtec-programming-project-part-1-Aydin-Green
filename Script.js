@@ -46,3 +46,4 @@ if (CarOffered == "Estima"){
     console.log ("EstimaDays = " +EstimaDays+ "")
     alert ("you have chosen to rent the Estima for " +EstimaDays+ " days we thank you for your partonage and hope you enjoy your new Estima this will cost you $" +(MX5Days*80)+ "")
 }
+//// This is a comment so I can say there is a comment
