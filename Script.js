@@ -18,7 +18,7 @@ function start() {
 
         var LoopAnswer = prompt ("Are you happy with this result? Yes or No")
         if (LoopAnswer == "Yes") {
-            var Loop = 1
+            Loop = 1
         }
     }
 }
