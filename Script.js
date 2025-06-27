@@ -3,7 +3,7 @@ function start() {
     var UserName = prompt ("What's your name?")
     console.log (UserName)
     var message
-    for (let Loop = 0; Loop < 1;) {
+    
         var HasLooped = HasLooped + 1
         console.log (HasLooped)
         var CarArray = ["BAC Mono", "MX5", "Tough Luck", "Mini", "Falcon", "Tough Luck", "Outlander", "Estima"]
@@ -23,19 +23,7 @@ function start() {
         } else {
             alert("Go away")
         }
-        var LoopAnswer = "Yes"
-        LoopAnswer = prompt ("Are you happy with this result? Yes or No")
-        if (LoopAnswer == "Yes") {
-            Loop = 1
-        } else {
-            if (LoopAnswer == "yes") {
-                Loop = 1
-            } else {
-                if (LoopAnswer === undefined) {
-                    Loop = 1
-                }
-            }
-        }
+        
     }
-}
+
 //// This is a comment so I can say there is a comment
