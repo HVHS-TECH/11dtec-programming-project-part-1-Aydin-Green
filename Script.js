@@ -4,6 +4,8 @@ function start() {
     console.log (UserName)
     var message
     for (let Loop = 0; Loop < 1;) {
+        var HasLooped = HasLooped + 1
+        console.log (HasLooped)
         var CarArray = ["BAC Mono", "MX5", "Tough Luck", "Mini", "Falcon", "Tough Luck", "Outlander", "Estima"]
         for (var index = 0; index < CarArray.length; index++) {
             if (CarArray[index] != "Tough Luck") {
