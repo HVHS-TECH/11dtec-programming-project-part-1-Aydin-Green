@@ -4,7 +4,7 @@ function start() {
     console.log (UserName)
     for (let Loop = 0; Loop < 1;) {
         var UserWant = prompt ("Hello " +UserName+ "\nHow many seats would you like for your car?\n1 2 4 5 7 or 8?")
-        var CarArray = ["BAC Mono", "MX5", "Tough Luck", "Mini", "Falcon", "Tough Luck", "Outlander", "Estima", "Car with 9 seats"]
+        var CarArray = ["BAC Mono", "MX5", "Tough Luck", "Mini", "Falcon", "Tough Luck", "Outlander", "Estima"]
         var CarWanted = UserWant-1
         var CarOffered = CarArray[CarWanted]
         console.log (CarOffered)
@@ -15,7 +15,7 @@ function start() {
         } else {
             alert("Go away")
         }
-        
+
         var LoopAnswer = prompt ("Are you happy with this result? Yes or No")
         if (LoopAnswer == "Yes") {
             Loop = 1
