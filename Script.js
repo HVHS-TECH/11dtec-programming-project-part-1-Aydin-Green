@@ -3,8 +3,11 @@ function start() {
     var UserName = prompt ("What's your name?")
     console.log (UserName)
     for (let Loop = 0; Loop < 1;) {
-        var UserWant = prompt ("Hello " +UserName+ "\nHow many seats would you like for your car?\n1 2 4 5 7 or 8?")
         var CarArray = ["BAC Mono", "MX5", "Tough Luck", "Mini", "Falcon", "Tough Luck", "Outlander", "Estima"]
+        for (let index = 0; index < array.length; index++) {
+            alert
+        }
+        var UserWant = prompt ("Hello " +UserName+ "\nHow many seats would you like for your car?\n1 2 4 5 7 or 8?")
         var CarWanted = UserWant-1
         var CarOffered = CarArray[CarWanted]
         console.log (CarOffered)
