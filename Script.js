@@ -4,7 +4,7 @@ function start() {
     console.log (UserName)
     for (let Loop = 0; Loop < 1;) {
         var CarArray = ["BAC Mono", "MX5", "Tough Luck", "Mini", "Falcon", "Tough Luck", "Outlander", "Estima"]
-        for (let index = 0; index < CarArray.length; index++) {
+        for (var index = 0; index < CarArray.length; index++) {
             if (CarArray[index] != "Tough Luck") {
                 var message = message + "With "+(index+1)+ "seats we have the " +CarArray[index]+ "\n"
             }}
