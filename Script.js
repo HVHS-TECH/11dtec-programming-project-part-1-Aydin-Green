@@ -5,8 +5,9 @@ function start() {
     for (let Loop = 0; Loop < 1;) {
         var CarArray = ["BAC Mono", "MX5", "Tough Luck", "Mini", "Falcon", "Tough Luck", "Outlander", "Estima"]
         for (let index = 0; index < CarArray.length; index++) {
+            if (CarArray[index] != "Tough Luck") {
             alert ("The cars on offer are (in order of least to most seats) \n" +CarArray[index])
-        }
+            }}
         var UserWant = prompt ("Hello " +UserName+ "\nHow many seats would you like for your car?\n1 2 4 5 7 or 8?")
         var CarWanted = UserWant-1
         var CarOffered = CarArray[CarWanted]
