@@ -19,8 +19,8 @@ function start() {
         } else {
             alert("Go away")
         }
-
-        var LoopAnswer = prompt ("Are you happy with this result? Yes or No")
+        var LoopAnswer = "Yes"
+        LoopAnswer = prompt ("Are you happy with this result? Yes or No")
         if (LoopAnswer == "Yes") {
             Loop = 1
         } else {
