@@ -26,6 +26,10 @@ function start() {
         } else {
             if (LoopAnswer == "yes") {
                 Loop = 1
+            } else {
+                if (LoopAnswer === undefined) {
+                    Loop = 1
+                }
             }
         }
     }
