@@ -2,14 +2,14 @@ function start() {
     console.log ("this means the JS is working")
     var UserName = prompt ("What's your name?")
     console.log (UserName)
-    var message
+    var message = ""
     
         var HasLooped = HasLooped + 1
         console.log (HasLooped)
         var CarArray = ["BAC Mono", "MX5", "Tough Luck", "Mini", "Falcon", "Tough Luck", "Outlander", "Estima"]
         for (var index = 0; index < CarArray.length; index++) {
             if (CarArray[index] != "Tough Luck") {
-                message = message + "With "+(index+1)+ "seats we have the " +CarArray[index]+ "\n"
+                message = message + "With "+(index+1)+ " seats we have the " +CarArray[index]+ "\n"
             }}
         alert ("The cars on offer are (in order of least to most seats) \n" +message)
         var UserWant = prompt ("Hello " +UserName+ "\nHow many seats would you like for your car?\n1 2 4 5 7 or 8?")
